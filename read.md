@@ -4,9 +4,12 @@
 gil clone https://github.com/wajid9752/Vendor-Management-System.git
 ```
 
-# create the virtualenv 
+# Create the virtualenv 
 ```
 pip install virtualenv 
+```
+
+```
 virtualenv env 
 ```
 
