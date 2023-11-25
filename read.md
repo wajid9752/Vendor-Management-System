@@ -1,3 +1,38 @@
+# First clone the project
+
+```
+gil clone https://github.com/wajid9752/Vendor-Management-System.git
+```
+
+# create the virtualenv 
+```
+pip install virtualenv 
+virtualenv env 
+```
+
+# Activate the env
+```
+env\Scripts\activate
+```
+
+# Install the requirements using requirements.txt
+```
+pip install requirements.txt
+```
+
+# Migrate the Database
+```
+python manage.py migrate
+```
+
+# Run the Server
+
+```
+python manage.py runserver
+```
+
+
+
 # To generate the token 
 ```
 http://127.0.0.1:8000/api/vendors/
@@ -139,8 +174,13 @@ http://127.0.0.1:8000/api/purchase_orders/1/
 ```
 Request : DELETE
 http://127.0.0.1:8000/api/purchase_orders/1/
+
 ```
 
 
-
+# Vendor Performce Api 
+```
+Request : GET
+http://127.0.0.1:8000/api/vendors/1/historical_performance/
+```
 
